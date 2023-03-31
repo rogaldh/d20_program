@@ -12,4 +12,4 @@ cluster = "localnet"
 wallet = "/Users/rogaldh/.config/solana/id.json"
 
 [scripts]
-test = "yarn run mocha -t 1000000 tests/"
+test = "npx ava tests/"
